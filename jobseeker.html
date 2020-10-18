@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>job-seeker</title>
+        <link rel="stylesheet" type="text/css" href="croadcast.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body class="seeker">
+        <p >Please fill up the form </p>
+        <form>
+            <div class="textfilling">
+                <div>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" required placeholder="enter name">  
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required placeholder="enter email">
+                </div>
+                 <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" name="phone" id="phone" required placeholder="enter phone number">
+                </div>
+            </div>
+            <div class="buttonfilling">
+                 <div class="JobStatus">
+                <p>Status</p>
+                <input type="radio" name="status" value="Fresher" checked >Fresher<br>
+                <input type="radio" name="status" value="Experienced"  >Experienced<br>
+                </div>
+                <div class="jobType">
+                    <p>JOb Type</p>
+                    <input type="checkbox" name="type" value="FrontEndDeveloper"  >Front-End Developer<br>
+                    <input type="checkbox" name="type" value="BackEndDeveloper"  >Back-End Developer<br>
+                    <input type="checkbox" name="type" value="FullStackDeveloper"  >Full Stack Web Developer<br>
+                </div>
+                <div class="jobLocation">
+                    <p>Job Location</p>
+                    <input type="checkbox" name="location" value="Delhi" checked >Delhi<br>
+                    <input type="checkbox" name="Location" value="Bangalore"  >Banglore<br>
+                    <input type="checkbox" name="location" value="Hyderabad"  >Hyderabad<br>
+                    <input type="checkbox" name="location" value="chennai"  >Chennai<br>
+                    <input type="checkbox" name="location" value="gurgaon"  >gurgaon<br>  
+                </div>
+                <div class="upload">
+                    <label for="uploadresume"> Upload Resume</label>
+                    <br>
+                    <input type="text" id="uploadresume" placeholder="choose file"><br>
+                    <button type="submit"  >upload</button>
+                </div>
+                <div class="broadcast">
+                    <button type="button">Broadcast</button>
+                </div>
+                <div class ="signup">
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
