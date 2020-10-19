@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Recruiter</title>
+        <link rel="stylesheet" type="text/css" href="croadcast.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <body class="seeker">
+        <p>Please fill up the form </p>
+        <form action="" method="POST">
+            <div class="textfilling">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Enter name">  
+                </div>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Enter email">
+                </div>
+                 <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="number" name="phone" id="phone" required placeholder="Enter phone number">
+                </div>
+                 <div>
+                    <label for="Company">Company</label><br>
+                    <input type="text" name="company" id="company" required placeholder="Enter Company">
+                </div>
+            </div>
+            <div class="buttonfilling">
+                <div class="jobType">
+                    <p>JOb Type</p>
+                    <input type="checkbox" name="type" value="FrontEndDeveloper"  >Front-End Developer<br>
+                    <input type="checkbox" name="type" value="BackEndDeveloper"  >Back-End Developer<br>
+                    <input type="checkbox" name="type" value="FullStackDeveloper"  >Full Stack Web Developer<br>
+                </div>
+                <div class="jobLocation">
+                    <p>Job Location</p>
+                    <input type="checkbox" name="location" value="Delhi" checked >Delhi<br>
+                    <input type="checkbox" name="Location" value="Bangalore"  >Banglore<br>
+                    <input type="checkbox" name="location" value="Hyderabad"  >Hyderabad<br>
+                    <input type="checkbox" name="location" value="chennai"  >Chennai<br>
+                    <input type="checkbox" name="location" value="gurgaon"  >gurgaon<br>  
+                </div>
+                <div class="JobStatus">
+                    <p>Status</p>
+                    <input type="radio" name="status" value="Fresher" checked >Fresher<br>
+                    <input type="radio" name="status" value="juniortomid">Junior To Mid<br>
+                    <input type="radio" name="status" value="midtosenior">Mid To Senior<br>
+                    <input type="radio" name="status" value="cxo">CXO<br>
+                </div>
+                <div class="workforce">
+                    <p>Blue Collar Workforce</p>
+                    <input type="radio" name="workforce" value="yes" checked >Yes<br>
+                    <input type="radio" name="workforce" value="No"  >No<br>
+                </div>
+                <div class ="submit">
+                    <button type="button">Submit</button>
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>
